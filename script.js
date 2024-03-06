@@ -10,7 +10,7 @@
 
 // let is a keyword in JS used to declare a variable
 // for Exapmle :
-let name = "Ali Hussnian";
+// let name = "Ali Hussnian";
 
 // const is also a keyword used to define a constant variable which means its value does'nt changed. an other keyword var is also used to declare a variable but the best practice is to go with let and const.
 
@@ -167,3 +167,16 @@ let name = "Ali Hussnian";
 // else if Statement
 // Switch
 // Ternary Operator
+
+// Loops repeat the executaion of code again and again until the condition is false.
+
+// for loop
+// Decrement in value of x
+// for (let x = 10; x >= 1; x--) {
+//     console.log(x);
+// }
+// Increment in value of x
+// for (let x = 1; x <= 10; x++) {
+//     console.log(x);
+// }
+
