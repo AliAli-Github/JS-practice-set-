@@ -39,5 +39,36 @@
 //     document.write("</br>");
 // }
 
+// Conditionals Statement questions
 
+// let randomNumber = prompt("Enter the number", "For Example: 1, 2, 3 etc.");
+// if (randomNumber > 10) {
+//     console.log("Hello");
+// }
+// else {
+//     console.log("Hey");
+// }
+// console.log(randomNumber);
 
+// let number = prompt("Enter the number");
+// let newNumber = Number(number);
+// newNumber += 10;
+// console.log(typeof newNumber, newNumber);
+// if (newNumber > 20) {
+//     console.log("Hello");
+// }
+// else {
+//     console.log("Hey");
+// }
+
+// user sa do number lo us numbers ko add karo or result ki value agar dosra number ka last digit sa choti ho tu print karo hello nahi ti ha.
+
+// let numOne = +prompt("Enter first Number");
+// let numTwo = +prompt("Enter second Number");
+// let sum = numOne + numTwo;
+// if (numTwo % 10 > sum) {
+//     console.log("Hello");
+// }
+// else {
+//     console.log("Hey");
+// }
