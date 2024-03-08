@@ -24,13 +24,20 @@
 // }
 
 
-// Nested loop
-
+// Nested loops
 // for (let x = 1; x <= 5; x++) {
-//     console.log(x, "start");
-//     for (let z = 10; z <= 20; z++) {
-//         console.log(z);
+//     for (let y = 1; y <= x; y++) {
+//         console.log(y);
 //     }
+//     console.log("\n");
 // }
 
-// by using for loops print random pattern.
+// for (let x = 1; x <= 5; x++) {
+//     for (let y = 1; y <= x; y++) {
+//         document.write("*" + " ");
+//     }
+//     document.write("</br>");
+// }
+
+
+

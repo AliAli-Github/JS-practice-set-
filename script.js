@@ -180,3 +180,21 @@
 //     console.log(x);
 // }
 
+// do-While loop
+// let a = 10;
+// do {
+//     console.log(a);
+//     a--;
+// } while (a >= 5);
+
+// Functions are the collection of statements functions are used to repeat the code and functions increases code reuseaibility functions are mainly defined for three purpose.
+// 1) When you ececute the code in future.
+// 2) When you want to repeat the code.
+// 3) when you want to repeat the code with different data.
+
+// Function statement
+function sum(num1, num2) {
+    console.log(num1 + num2);
+}
+sum(10, 20);
+
