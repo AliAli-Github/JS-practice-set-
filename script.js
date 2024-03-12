@@ -198,3 +198,25 @@
 // }
 // sum(10, 20);
 
+// Now we are going to study arrays
+
+// arrays are the collection of multiple values
+let arr = [1, 2, 3, 4, 5, 6];
+// console.log(arr);
+// every array value has a specific index number you can access any value by calling index number the index number start from 0 and so on...
+
+// console.log(arr[1]);
+// we already knows some built-in functions in JS like alert() prompt() etc. similarly arrays has also some buil-in methods.
+
+// we study push(), pop(), shift(), unshift().
+
+// the Push() method add values at the end of an array
+// arr.push(1, 23, 34, 56);
+
+// the pop() method removes the last value of array
+// arr.pop();
+
+// the shift method removes the value form start of aan array and the unshift menthod add members ata the start of array.
+
+// arr.unshift(1, 2, 4)
+// arr.shift();
