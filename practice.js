@@ -119,3 +119,42 @@
 // else {
 //     console.log(randomNumber)
 // }
+
+// let volume = document.querySelector("strong");
+// let range = document.querySelector("input");
+// let volUp = document.querySelector(".up");
+// let volDown = document.querySelector(".down");
+// let volMuted = document.querySelector(".muted");
+// range.addEventListener("input", () => {
+//     volume.innerText = range.value + " %";
+//     if (range.value > 50) {
+//         volUp.style.display = "block";
+//         volDown.style.display = "none";
+//         volMuted.style.display = "none";
+//     }
+//     else if (range.value <= 50) {
+//         volUp.style.display = "none";
+//         volDown.style.display = "block";
+//         volMuted.style.display = "none";
+//     }
+// });
+// volUp.addEventListener("click", () => {
+//     volUp.style.display = "none";
+//     volMuted.style.display = "block";
+// });
+// volDown.addEventListener("click", () => {
+//     volDown.style.display = "none";
+//     volMuted.style.display = "block";
+// });
+// volMuted.addEventListener("click", () => {
+//     if (range.value > 50) {
+//         volUp.style.display = "block";
+//         volDown.style.display = "none";
+//         volMuted.style.display = "none";
+//     }
+//     else if (range.value < 50) {
+//         volUp.style.display = "none";
+//         volDown.style.display = "block";
+//         volMuted.style.display = "none";
+//     }
+// })
