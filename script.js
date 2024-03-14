@@ -220,3 +220,18 @@ let arr = [1, 2, 3, 4, 5, 6];
 
 // arr.unshift(1, 2, 4)
 // arr.shift();
+
+// Objects are the collection of properties and functions. objects are used to collect data of a specific identity.
+// let obj = {}; //Blank Object
+// here we have a camera we want to store all details of camera in our code so we make an object.
+// const cameraDetails = {
+//     brand: "A4tech",
+//     color: "silver",
+//     audio: true,
+//     video: true,
+//     photo: true,
+//     rating: "8mp",
+//     zoom: true,
+//     arr: [1, 2, 3, 5]
+// };
+// Object.freeze(cameraDetails);
