@@ -162,9 +162,18 @@
 // practice of loops
 // loops code ko repeat karta ha jab tak ka condition true rahti ha or jab condition false ho jati ha loop bhi khatam ho jata ha.
 
-// forEach aik loop ha jo hamasha arrays pa work karta ha or ya loop ham tab istamal karta ha jab hama array ka har member par koi operation perform karna hota ha. 
-// let values = [1, 2, 3, 4, 5, 6, 7, 8];
+// forEach aik loop ha jo hamasha arrays pa work karta ha or ya loop ham tab istamal karta ha jab hama array ka har member par koi operation perform karna hota ha.
+let values = [1, 2, 3, 4, 5, 6, 7, 8];
 // values.forEach(element => {
 //     console.log(element + 2); // add 2 in each value
 // });
 
+// Map() method similay ha forEach() sa. ya method bhi array ka har member pa operation perform karta ha or us ka result aik new array ma store kar data ha.
+// let newarray = values.map((element) => {
+//     return element+2;
+// });
+
+// filter() bhi aik array method jo array ka members ko filter kar kai aik new array ma store karta ha.
+let newarray = values.filter((y) => {
+    return y <= 5;
+})
