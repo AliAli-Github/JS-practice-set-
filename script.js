@@ -201,7 +201,7 @@
 // Now we are going to study arrays
 
 // arrays are the collection of multiple values
-let arr = [1, 2, 3, 4, 5, 6];
+// let arr = [1, 2, 3, 4, 5, 6];
 // console.log(arr);
 // every array value has a specific index number you can access any value by calling index number the index number start from 0 and so on...
 
@@ -235,3 +235,22 @@ let arr = [1, 2, 3, 4, 5, 6];
 //     arr: [1, 2, 3, 5]
 // };
 // Object.freeze(cameraDetails);
+
+// arrays methods
+// 1) includes method check the value in array if exist return true otherwise false.
+// 2) indexof method find the index number of a value in array if the value is not exist it gives -1. 
+
+// there is an example of both indexof() and includes() methods.
+// let students = ["ali", "babar", "abubakar", "zohaib", "zain", "daniel", "rizwan"];   //list of students.
+// user sa aik random number lo our us number pa jo index no jo name ha woh print karo.
+
+// let user = +prompt("Enter the index number");
+// if (students[user] != undefined) {
+//     console.log(students[user]);
+// };
+
+// let student = prompt("Enter the name");
+// let index = students.indexOf(student);
+// console.log(students.includes(student), students.indexOf(student), students[index]);
+
+
