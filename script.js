@@ -253,4 +253,3 @@
 // let index = students.indexOf(student);
 // console.log(students.includes(student), students.indexOf(student), students[index]);
 
-
