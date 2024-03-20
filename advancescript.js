@@ -35,4 +35,57 @@
 
 // Truthy and falsy javascript ma ap koi bhi value likhta ho woh ya tu truty value hoti ha ya falsy value hoti ha basically ya boolean form of value hoti ha ka value evluate hona ka bad true ho gi ya false.
 
+// Switch is similar to if-else statement it execute a specific block of code that satisfy a particula codition.
 
+// let beverages = prompt("Enter your drink").toLowerCase();
+// switch (beverages) {
+//     case "cocacola":
+//         console.log(beverages, "Rs 240/.");
+//         break;
+//     case "pepsi":
+//         console.log(beverages, "Rs 190/.");
+//         break;
+//     case "soda":
+//         let flavour = prompt("Which flavour do you want?");
+//         if (flavour == "apple") {
+//             console.log(flavour, "Rs 180/.");
+//         }
+//         else if (flavour == "choclate") {
+//             console.log(flavour, "Rs 130/.");
+//         }
+//         else {
+//             console.log("flavour not available. 😟");
+//         }
+//         break;
+//     default:
+//         console.log("drink is unavailable.");
+// };
+
+// for-in loop is used for looping objects.
+
+// let PC = {
+//     name: "DELL CO.",
+//     processor: "Intel core i3 3rd generation",
+//     ram: "4GB",
+//     strorage: "410GB",
+//     speaker: true,
+//     driver: true
+// };
+// for (const key in PC) {
+//     console.log(`${key}: ${PC[key]}`);
+// };
+
+// let arr = [
+//     { name: "ali", age: 17 },
+//     { name: "abubakar", age: 19 },
+//     { name: "zain", age: 20 },
+//     { name: "mueed", age: 16 },
+// ];
+// for (const key in arr) {
+//     console.log(key, arr[key].name, arr[key].age);
+// }
+
+// let str = "alih";
+// for (let key in str) {
+//     console.log(key, str[key]);
+// }
