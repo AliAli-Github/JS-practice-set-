@@ -75,17 +75,22 @@
 //     console.log(`${key}: ${PC[key]}`);
 // };
 
-// let arr = [
-//     { name: "ali", age: 17 },
-//     { name: "abubakar", age: 19 },
-//     { name: "zain", age: 20 },
-//     { name: "mueed", age: 16 },
-// ];
-// for (const key in arr) {
-//     console.log(key, arr[key].name, arr[key].age);
-// }
+// First class functions
+// Javascript ma ap functions ko variables ki tarah treat kar sakta ho or un ko as an argument bhi pas kar sakta ho aisa functions lo first class functions kaha jata ha.
+// Example 1
+// let a = function () {
+//     // Statement 1
+//     // Statement 2
+//     // Statement 3
+//     console.log("hello");
+// };
+// a();
+// in this example variable a is treated as function.
 
-// let str = "alih";
-// for (let key in str) {
-//     console.log(key, str[key]);
+// function abc(a) {
+//     a();
 // }
+// abc(function () {
+//     console.log(true);
+// });
+
