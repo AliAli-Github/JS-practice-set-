@@ -94,3 +94,27 @@
 //     console.log(true);
 // });
 
+// higher order functions accept function in a parameter or return a functuion or both.
+// for example forEach() always accepts function in a paramenter so it is higher order function.
+// function abc(a) {
+//     console.log("function abc() is a higher order function.");
+//     a();
+// };
+// abc(function () {
+//     console.log("this is saved in parameter a");
+// });
+
+// Constructor functions are used when you want to create multiple elements of similar characteristics. on the other hand constructor function is a way to define object with properties and methods.
+
+// function persons(identity, age) {
+//     this.name = identity;
+//     this.age = age;
+// }
+
+// let user1 = new persons("ali", 17);
+// let user2 = new persons("abubakar", 18);
+// let user3 = new persons("sajawal", 19);
+// let user4 = new persons("zain", 20);
+// let user5 = new persons("zohaib", 22);
+
+// console.log(user1, user2, user3, user4, user5);
