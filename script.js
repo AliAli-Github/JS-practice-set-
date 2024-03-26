@@ -253,3 +253,29 @@
 // let index = students.indexOf(student);
 // console.log(students.includes(student), students.indexOf(student), students[index]);
 
+// let word = prompt("Enter the word to check palindrome or not.");
+// let array = word.split("");
+// array.reverse();
+// let string = array.join("");
+// if (word == string) {
+//     console.log(word, "is palindrome.");
+// }
+// else {
+//     console.log(word, "is not palindrome.");
+// }
+
+// Immediately invoked function expressions are immediately called as it is created. this is used to create private variables.
+
+// let iife = (function () {
+//     let id = 10001;
+//     let password = "******";
+//     return {
+//         getter: () => {
+//             console.log(id, password);
+//         },
+//         setter: (newId, newPass) => {
+//             id = newId;
+//             password = newPass;
+//         }
+//     }
+// })();
