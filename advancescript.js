@@ -111,10 +111,28 @@
 //     this.age = age;
 // }
 
-// let user1 = new persons("ali", 17);
+// let user1 = new persons("ali", 17,);
 // let user2 = new persons("abubakar", 18);
 // let user3 = new persons("sajawal", 19);
 // let user4 = new persons("zain", 20);
 // let user5 = new persons("zohaib", 22);
 
 // console.log(user1, user2, user3, user4, user5);
+
+// Immediately invoked function expressions are immediately called as it is created. this is used to create private variables.
+
+// let iife = (function () {
+//     let id = 10001;
+//     let password = "******";
+//     return {
+//         getter: () => {
+//             console.log(id, password);
+//         },
+//         setter: (newId, newPass) => {
+//             id = newId;
+//             password = newPass;
+//         }
+//     }
+// })();
+
+

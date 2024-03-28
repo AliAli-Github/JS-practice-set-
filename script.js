@@ -238,7 +238,7 @@
 
 // arrays methods
 // 1) includes method check the value in array if exist return true otherwise false.
-// 2) indexof method find the index number of a value in array if the value is not exist it gives -1. 
+// 2) indexof method find the index number of a value in array if the value is not exist it gives -1.
 
 // there is an example of both indexof() and includes() methods.
 // let students = ["ali", "babar", "abubakar", "zohaib", "zain", "daniel", "rizwan"];   //list of students.
@@ -264,18 +264,5 @@
 //     console.log(word, "is not palindrome.");
 // }
 
-// Immediately invoked function expressions are immediately called as it is created. this is used to create private variables.
 
-// let iife = (function () {
-//     let id = 10001;
-//     let password = "******";
-//     return {
-//         getter: () => {
-//             console.log(id, password);
-//         },
-//         setter: (newId, newPass) => {
-//             id = newId;
-//             password = newPass;
-//         }
-//     }
-// })();
+
